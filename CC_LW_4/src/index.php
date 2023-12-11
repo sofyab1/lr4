@@ -1,17 +1,17 @@
 <html>
 
 <head>
-    <title>Каталог товаров</title>
+    <title>Тарифы</title>
 </head>
 
 <body>
     <h2>Каталог товаров</h2>
     <table border="0" cellpadding="5" cellspacing="0" width="100%">
         <tr>
-            <th>Автор</th>
-            <th>Название</th>
-            <th>Год издания</th>
-            <th>Цена, руб.</th>
+            <th>Память</th>
+            <th>Хранилище</th>
+            <th>Процессор</th>
+            <th>Цена (день)</th>
         </tr>
         <?php
             require_once "connect.pg.inc.php";
