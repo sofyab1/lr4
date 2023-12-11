@@ -18,7 +18,7 @@ CREATE TABLE catalog (
 $pdo->query($sql);
 //Занесение данных
 $sql = "
-INSERT INTO catalog VALUES (1,'Jon', 'PHP',2020,500)";
+INSERT INTO catalog VALUES (512, 10'Gb', 8, 400)";
 $pdo->query($sql);
 //Закрыть подключение к базе данных
 $pdo = null;
